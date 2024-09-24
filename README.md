@@ -35,3 +35,7 @@ If not specified `--model-id` defaults to `ds8_inp`.
 - `rasg` - Use RASG guidance mechanism as introduced in the paper.
 - `painta+rasg` - Use both PAIntA and RASG mechanisms.
 
+### More results
+![example_one](https://github.com/user-attachments/assets/48384b8a-9cea-4c8f-86d2-3a587b7d2c7a)
+
+
