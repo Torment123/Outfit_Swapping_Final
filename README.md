@@ -43,3 +43,6 @@ If not specified `--model-id` defaults to `ds8_inp`.
 
 
 ![example_three](https://github.com/user-attachments/assets/781f33c3-6dfb-4ca9-a56a-093aa4acb289)
+
+
+![example_four](https://github.com/user-attachments/assets/f14a6e67-8a66-46ce-befa-e5babd191363)
