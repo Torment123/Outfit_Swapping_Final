@@ -73,6 +73,7 @@ def run(
     negative_prompt = '',
     use_sam_mask = False
 ):
+    blend_trick = False
     hr_image_info = hr_image.info
     lr_image = IImage(lr_image)
     hr_image = IImage(hr_image).resize(2048)
