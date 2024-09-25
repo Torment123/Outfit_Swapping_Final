@@ -148,8 +148,13 @@ def main():
             output_path = output_dir / f'{idx}.jpg'
         else:
             output_path = args.output_dir / f'{args.image_path.stem}.jpg'
+            output_path_hd = args.output_dir / f'{args.image_path.stem}_hd.jpg'
 
-        inpainted_hd_image.save(output_path)
+        
+        inpainted_hd_image = inpainted_hd_image.resize((471, 400))
+        inpainted_image = inpainted_image.resize((471, 400))
+        inpainted_hd_image.save(output_path_hd)
+        inpainted_image.save(output_path)
 
 
 if __name__ == '__main__':
